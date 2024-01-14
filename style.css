@@ -125,8 +125,8 @@ a:hover {
 /* Adjust font sizes for larger screens using a media query */
 @media screen and (min-width: 350px) {
     .intro-container {
-        max-width: 280px;
-        margin-top: 20px;
+        width: 270px;
+        margin-top: 90px;
         padding-bottom: 50px;
     }
 
@@ -147,7 +147,7 @@ a:hover {
 @media screen and (min-width: 768px) {
     .intro-container {
         max-width: 760px;
-        margin-top: 5px;
+        margin-top: 85px;
     }
 
     .intro-container .intro-title {
@@ -169,7 +169,7 @@ a:hover {
 @media screen and (min-width: 1200px) {
     .intro-container {
         max-width: 1200px;
-        margin-top: 5px;
+        margin-top: 85px;
     }
 
     .intro-container .intro-title {
@@ -245,21 +245,23 @@ a:hover {
 @media screen and (min-width: 350px) {
     .project-container {
         height: 900px;
+        width: 270px;
+        
     }
 
 
     .project-header {
         
-        width: 230px;
+        width: 200px;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 20px;
         
     }
     .project-tile{
         
-        height: 350px;
-        width: 280px;
-        border-radius: 50px;
+        height: 300px;
+        width: 250px;
+        border-radius: 45px;
         position: absolute;
         left: 25px;
         top:150px;
@@ -268,9 +270,9 @@ a:hover {
     .project-tile2{
         background-color: rgba(0, 0, 0, 0.266);
         backdrop-filter: blur(10px);
-        height: 350px;
-        width: 280px;
-        border-radius: 50px;
+        height: 300px;
+        width: 250px;
+        border-radius: 45px;
         position: absolute;
         right: 0px;
         left: 25px;
