@@ -147,7 +147,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .intro-container {
-        max-width: 760px;
+        width: 760px;
         margin-top: 85px;
     }
 
@@ -159,7 +159,7 @@ a:hover {
 
     .intro-container .intro-desc {
         font-size: 18px;
-        padding: 0px 100px;
+        padding: -80px 80px;
         text-align: center;
         font-weight: 400;
 
@@ -169,7 +169,8 @@ a:hover {
 /* Adjust font sizes for even larger screens */
 @media screen and (min-width: 1200px) {
     .intro-container {
-        max-width: 1200px;
+        /* width: 1200px; */
+        min-width: 1100px;
         margin-top: 85px;
     }
 
@@ -182,7 +183,7 @@ a:hover {
 
     .intro-container .intro-desc {
         font-size: 20px;
-        padding: 0px 100px;
+        padding: -80px 100px;
         text-align: center;
         font-weight: 400;
     }
