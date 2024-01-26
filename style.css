@@ -433,7 +433,8 @@ a:hover {
     margin: 15px 0px;
 }
 .career-container button{
-    width: 160px;
+    width: 98%;
+    height: 60px;
     font-size: 14px;
     font-weight: 500;
     background-color: black;
