@@ -14,3 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var typed = new Typed('#typed-output', options);
 });
+
+function scrollToSection(sectionId) {
+    var section = document.getElementById(sectionId);
+    if (section) {
+        var offset = -100; // Adjust the offset as needed
+        section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+        window.scrollBy(0, offset);
+    }
+}
