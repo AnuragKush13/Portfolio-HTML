@@ -17,9 +17,10 @@ html,body {
     
     max-width: 100%;
     /* background-color: antiquewhite; */
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(230, 230, 230);
     background-repeat: no-repeat;
     background-size: cover;
+    /* color:antiquewhite; */
     border-radius: 8px;
     padding: 20px 20px;
     display: flex;
@@ -103,12 +104,12 @@ a:hover {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    gap: 35px;
+    gap: 50px;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+    
     
 }
-
-
-
 
 @media screen and (min-width: 450px) {
     .intro-container {
@@ -136,7 +137,7 @@ a:hover {
     .intro-container {
         /* width: 270px; */
         margin-top: 90px;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
     .intro-container .intro-title {
@@ -155,7 +156,8 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .intro-container {
-        /* width: 760px; */
+        margin-top: 100px;
+        /* margin-bottom: 100px; */
         margin-top: 85px;
     }
 
@@ -181,8 +183,9 @@ a:hover {
         width: 100%;
         min-width: 1100px;
         width: 100%;
-        margin-top: 85px;
-    }
+        margin-top: 100px;
+    /* margin-bottom: 100px; */
+ }
 
     .intro-container .intro-title {
 
@@ -402,17 +405,26 @@ a:hover {
 }
 
 
+.career-skills{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+
+
+
 /* career section */
 .career-container{
     background-color: rgb(212, 212, 212);
     border-radius: 20px;
     position: relative;
-    width: 100%;
+    width: 50%;
     margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap:5px;
+    /* gap:5px; */
 
 
 }
@@ -436,6 +448,7 @@ a:hover {
 .career-container button:hover{
     transition:transform 0.2s ease-out;
     transform: translateY(2px);
+    cursor: pointer;
     background-color: rgb(22, 22, 22);
 }
 
@@ -455,3 +468,42 @@ a:hover {
     justify-content: center;
     
 }
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skills h5{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 12px;
+    padding: 15px 25px;
+    margin-right: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:350px) {
+    
+.career-skills{
+    flex-direction: column;  
+    
+}
+.career-container{
+    min-width: 370px
+}
+.skills h5{
+    padding: 10px 15px;
+    margin: 5px;
+}
+}
+@media screen and (min-width:820px) {
+    
+    .career-skills{
+        flex-direction: row;
+       
+    }
+    }
