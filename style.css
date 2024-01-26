@@ -493,7 +493,8 @@ a:hover {
     
 }
 .career-container{
-    min-width: 370px
+    min-width: 335px;
+    
 }
 .skills h5{
     padding: 10px 15px;
